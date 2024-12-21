@@ -2455,4 +2455,8 @@ a {
   rotate: 90deg;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*# sourceMappingURL=main.css.map */
