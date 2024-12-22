@@ -1463,7 +1463,7 @@ ul.actions.special {
 .feature-list section {
   border-top: solid 1px #eee;
   padding-top: 3em;
-  padding-left: 5em;
+  padding-left: 1em;
   position: relative;
 }
 @media screen {
@@ -1474,21 +1474,19 @@ ul.actions.special {
 }
 .feature-list h3 {
   margin: -0.35em 0 0.75em 0;
-  font-size: 1.15em;
+  font-size: 1.5em;
   letter-spacing: 0.05em;
 }
 .feature-list h3:before {
-  display: block;
+  display: inline-block;
   color: #fff;
   background: #2f333b url("images/overlay.png");
   border-radius: 2.5em;
   text-align: center;
-  width: 2.5em;
-  height: 2.5em;
-  line-height: 2.5em;
-  margin-right: 0.75em;
-  position: absolute;
-  left: 0;
+  width: 1.5em;
+  height: 1.3em;
+  padding-top: 0.15em;
+  margin-right: 0.5em;
   margin-top: -0.5em;
 }
 .feature-list.small section {
@@ -1516,7 +1514,6 @@ ul.actions.special {
   font-weight: 400;
 }
 .icon:before {
-  line-height: inherit;
   font-size: 1.25em;
 }
 .icon > .label {
@@ -1605,7 +1602,7 @@ ul.actions.special {
 }
 .wrapper.style1 {
   background: #FFA500 url("images/overlay.png");
-  color: rgba(255, 255, 255, 0.75);
+  color: #fff;
 }
 .wrapper.style1 .title {
   background: #FFA500 url("images/overlay.png");
@@ -2443,7 +2440,7 @@ a {
 }
 
 .collapsible::before {
-  content: "▸"; /* Unicode character for "plus" sign (+) */
+  content: "▸"; /* Unicode character for "right triangle" sign (>) */
   font-size: 20px;
   float: left;
   margin-right: 5px;
@@ -2457,6 +2454,10 @@ a {
 
 html {
   scroll-behavior: smooth;
+}
+
+.icon-tilde::before {
+  content: "~";
 }
 
 /*# sourceMappingURL=main.css.map */
