@@ -1683,7 +1683,7 @@ ul.actions.special {
 #logo p {
   color: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
-  margin: 1.25em 0 0 0;
+  margin: 0 0 0 0;
   display: block;
   letter-spacing: 0.2em;
   font-size: 0.9em;
@@ -2323,12 +2323,6 @@ ul.actions.special {
     font-size: 1.5em;
     letter-spacing: 0.2em;
   }
-  #logo p {
-    margin: 1.25em 0 0 0;
-    display: block;
-    letter-spacing: 0.2em;
-    font-size: 0.9em;
-  }
   /* Intro */
   #intro {
     text-align: center;
@@ -2458,6 +2452,18 @@ html {
 
 .icon-tilde::before {
   content: "~";
+}
+
+.icon-simplicity::before {
+  content: "⦿";
+}
+
+.icon-no-oop::before {
+  content: ":";
+}
+
+.icon-bold::before {
+  content: "🔥";
 }
 
 /*# sourceMappingURL=main.css.map */
