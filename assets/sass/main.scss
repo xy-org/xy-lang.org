@@ -628,6 +628,10 @@ ul.actions {
         }
     }
 
+    p {
+        font-size: 12pt;
+    }
+
     &.small {
         section {
             padding-left: 3.5em;
@@ -1114,10 +1118,6 @@ ul.actions {
             &:before {
                 background: #3d4249 url("images/overlay.png");
             }
-        }
-
-        p {
-            font-size: 12pt;
         }
     }
 }

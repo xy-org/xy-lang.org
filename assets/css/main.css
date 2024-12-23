@@ -1490,6 +1490,9 @@ ul.actions.special {
   margin-top: -0.5em;
   padding-bottom: 1.3em;
 }
+.feature-list p {
+  font-size: 12pt;
+}
 .feature-list.small section {
   padding-left: 3.5em;
 }
@@ -1908,9 +1911,6 @@ ul.actions.special {
 }
 #footer .feature-list h3:before {
   background: #3d4249 url("images/overlay.png");
-}
-#footer .feature-list p {
-  font-size: 12pt;
 }
 
 /* Copyright */
