@@ -618,11 +618,12 @@ ul.actions {
             background: #2f333b url("images/overlay.png");
             border-radius: 2.5em;
             text-align: center;
-            width: 1.5em;
+            width: 2.5em;
             height: 1.3em;
             padding-top: 0.15em;
             margin-right: 0.5em;
             margin-top: -0.5em;
+            padding-bottom: 1.30em;
         }
     }
 
@@ -1791,5 +1792,9 @@ html {
 }
 
 .icon-bold::before {
-    content: "\1F525"
+    content: "🡭"
+}
+
+.icon-compiled::before {
+    content: "🗘"
 }
