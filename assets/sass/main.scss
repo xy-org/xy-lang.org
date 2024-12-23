@@ -599,7 +599,8 @@ ul.actions {
         position: relative;
     }
 
-    @include breakpoint(">=small") {
+    @include breakpoint(">medium") {
+        // remove border of second column when 2 columns
         > .row > :nth-child(-n + 2) > section {
             border-top: 0;
             padding-top: 0;
@@ -1188,7 +1189,7 @@ ul.actions {
     /* Logo */
 
     #logo {
-        margin-top: -0.5em !important;
+        margin-top: -2em !important;
 
         h1 {
             font-size: 1.75em;
@@ -1544,7 +1545,7 @@ ul.actions {
     .feature-list {
         section {
             padding-top: 2em;
-            padding-left: 4em;
+            // padding-left: 4em; // keep it consistent if other parts
         }
 
         h3 {
@@ -1603,7 +1604,7 @@ ul.actions {
         height: 17em;
 
         .homepage & {
-            height: 21em;
+            height: 23em;
         }
     }
 
@@ -1646,7 +1647,7 @@ ul.actions {
     #features {
         header {
             &.style1 {
-                padding-bottom: 4em;
+                padding-bottom: 1em;
             }
         }
 

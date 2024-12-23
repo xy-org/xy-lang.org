@@ -1466,7 +1466,7 @@ ul.actions.special {
   padding-left: 1em;
   position: relative;
 }
-@media screen {
+@media screen and (min-width: 981px) {
   .feature-list > .row > :nth-child(-n+2) > section {
     border-top: 0;
     padding-top: 0;
@@ -1966,7 +1966,7 @@ ul.actions.special {
   }
   /* Logo */
   #logo {
-    margin-top: -0.5em !important;
+    margin-top: -2em !important;
   }
   #logo h1 {
     font-size: 1.75em;
@@ -2273,7 +2273,6 @@ ul.actions.special {
   /* Feature List */
   .feature-list section {
     padding-top: 2em;
-    padding-left: 4em;
   }
   .feature-list h3:before {
     font-size: 0.9em;
@@ -2312,7 +2311,7 @@ ul.actions.special {
     height: 17em;
   }
   .homepage #header {
-    height: 21em;
+    height: 23em;
   }
   /* Logo */
   #logo {
@@ -2343,7 +2342,7 @@ ul.actions.special {
   }
   /* Features */
   #features header.style1 {
-    padding-bottom: 4em;
+    padding-bottom: 1em;
   }
   #features ul.actions {
     margin-top: 4em;
