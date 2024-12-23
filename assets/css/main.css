@@ -1909,6 +1909,9 @@ ul.actions.special {
 #footer .feature-list h3:before {
   background: #3d4249 url("images/overlay.png");
 }
+#footer .feature-list p {
+  font-size: 12pt;
+}
 
 /* Copyright */
 #copyright {
@@ -2464,11 +2467,11 @@ html {
 }
 
 .icon-bold::before {
-  content: "🡭";
+  content: "✷";
 }
 
 .icon-compiled::before {
-  content: "🗘";
+  content: "↯";
 }
 
 /*# sourceMappingURL=main.css.map */

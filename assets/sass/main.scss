@@ -1115,6 +1115,10 @@ ul.actions {
                 background: #3d4249 url("images/overlay.png");
             }
         }
+
+        p {
+            font-size: 12pt;
+        }
     }
 }
 
@@ -1786,7 +1790,7 @@ html {
 }
 
 .icon-simplicity::before {
-    content: "⦿"
+    content: "\29BF"; // circle with a dot
 }
 
 .icon-no-oop::before {
@@ -1794,9 +1798,9 @@ html {
 }
 
 .icon-bold::before {
-    content: "🡭"
+    content: "✷"; // prop
 }
 
 .icon-compiled::before {
-    content: "🗘"
+    content: "↯";
 }
