@@ -2458,6 +2458,10 @@ html {
   content: "~";
 }
 
+.icon-indices::before {
+  content: "[]";
+}
+
 .icon-simplicity::before {
   content: "⦿";
 }
